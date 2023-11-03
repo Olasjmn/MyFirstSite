@@ -1,0 +1,34 @@
+a {
+color: rgb(60, 122, 255);
+text-decoration: none;
+transition: all .2s;
+}
+
+a:hover {
+    color: aqua;
+    font-size: 1.2rem ;
+}
+
+
+a:active {
+    color: red;
+}
+
+
+.btn {
+    background: hsl(209, 85%, 64%);
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+}
+.btn:hover {
+opacity: 0.5;
+color: rgb(216, 7, 7);
+}
+
+/*a:visited {
+    color: rgb(141, 49, 72);
+}*/
